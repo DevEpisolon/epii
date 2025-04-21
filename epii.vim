@@ -14,6 +14,18 @@ let g:colors_name='epii'
 set t_Co=256
 
 
+
+" JSX colors section
+hi jsxFunction guifg=#0ad2d3 guibg=NONE
+hi jsxTag guifg=#f990e8 guibg=NONE
+hi jsxTagName guifg=#ffffff guibg=NONE
+hi jsxAttribute guifg=#0ad2d3 guibg=NONE
+hi jsxString guifg=#ffffff guibg=NONE
+hi jsxNumber guifg=#f990e8 guibg=NONE
+hi jsxKeyword guifg=#0ad2d3 guibg=NONE
+
+
+
 " javascript
 
 hi javaScriptLineComment      guisp=NONE guifg=#ffffff guibg=#1c1c1c ctermfg=231 ctermbg=234 gui=NONE cterm=NONE
